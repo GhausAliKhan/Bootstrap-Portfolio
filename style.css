@@ -17,3 +17,42 @@ nav {
   font-size: 15px;
   line-height: 20px;
 }
+/* HEADLINE */
+.headlineBackground {
+  background-image: url(./assets/Illustration-header.png);
+  background-color: #1c1a19;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 90vh;
+}
+.headlineWrapper {
+  height: 100%;
+}
+.headlineIcons ul {
+  list-style: none;
+}
+.headlineIcons ul li {
+  margin: 15px 0px;
+}
+.headlineContent h1,
+.headlineContent h2 {
+  font-family: "Crete Round", serif;
+  color: #f55800;
+}
+.headlineContent h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+.headlineContent h2 {
+  font-weight: 600;
+  font-size: 55px;
+}
+.headlineContent h3 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.headlineContent p {
+  font-weight: 400;
+  font-size: 20px;
+}
