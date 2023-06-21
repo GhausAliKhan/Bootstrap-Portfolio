@@ -4,6 +4,10 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 /* NAVBAR */
 nav {
   background-color: #3e3c3c;
