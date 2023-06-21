@@ -72,3 +72,50 @@ nav {
   font-weight: 400;
   font-size: 20px;
 }
+
+/* PORTFOLIO */
+
+.portfolioContent-title {
+  height: 125px;
+}
+
+.portfolioContent-project h2 {
+  color: #091e42;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.portfolioContent-project p {
+  color: #091e42;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.portfolioContent-project ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 5px;
+}
+
+.portfolioContent-project ul li {
+  color: #091e42;
+  padding: 10px 12px;
+  border: 1px solid #000;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.portfolioContent-project button {
+  background-color: #f55800;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
