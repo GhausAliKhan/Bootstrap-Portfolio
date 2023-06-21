@@ -74,9 +74,20 @@ nav {
 }
 
 /* PORTFOLIO */
-
+.portfolio {
+  margin-bottom: 8%;
+}
+/* PORTFOLIO CONTENT */
 .portfolioContent-title {
-  height: 125px;
+  height: 150px;
+}
+
+.portfolioContent-title h2 {
+  margin-bottom: 0;
+}
+
+.portfolioContent-title p {
+  margin-bottom: 0;
 }
 
 .portfolioContent-project h2 {
@@ -118,4 +129,40 @@ nav {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
+}
+
+/* PORTFOLIO CARDS */
+.portfolioCards .card {
+  width: 30%;
+  height: auto;
+  padding: 0;
+}
+
+.portfolioCards .card-img-overlay {
+  position: absolute;
+  top: 115px;
+}
+
+.portfolioCards .card-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 44px;
+}
+
+.portfolioCards .card-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.portfolioCards .card-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
+
+.portfolioCards .card-list li {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
 }
