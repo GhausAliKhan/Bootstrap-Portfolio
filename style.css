@@ -39,7 +39,9 @@ nav {
   height: 100%;
 }
 
-.headlineIcons ul {
+.headlineIcons ul, 
+.skills--title-container ul,
+.icons1 ul {
   list-style: none;
 }
 
@@ -166,4 +168,186 @@ nav {
 .portfolioCards .card-list li {
   background: rgba(255, 255, 255, 0.24);
   padding: 10px 12px;
+}
+
+/* ABOUT CARDS */
+
+.about{
+  background-color: #1c1a19;
+  background-image: url(./assets/illustration-about-desktop.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-y: 10%;
+  
+}
+
+.content-txt{
+  height: 50vh ;
+  padding-top: 1%;
+}
+
+.about-title{
+  font-family: "Crete Round", serif;
+  font-size: 72px;
+  margin: 100px auto 0 20px;
+  color: #f55800;
+}
+
+.about-description {
+  width: 50%;
+  font-family: "Inter", sans-serif;
+  margin: 20px;
+  text-align: left;
+  color: #fff;
+}
+.about-button {
+  font-weight: bold;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 40px;
+  width: 130px;
+  justify-content: center;
+  border-color: #ff6b00;
+  margin-left: 20px;
+}
+
+.line{
+  border: none;
+  border-top: 2px solid #fff;
+}
+
+.skills--title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom:5%;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.skills-title {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 10%;
+}
+
+.skills-title-head {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.skill {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.rhombus {
+  margin: 7px;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
+.square {
+  margin: 7px;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00;
+  display: inline-block;
+}
+
+.circle {
+  margin: 7px;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+}
+
+.titleFooter {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 40px;
+  width: 40vh;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin-top: 10%;
+}
+
+.form {
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.botn {
+  background: #ff6b00;
+  border-color: #ff6b00;
+  font-family: "inter", serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  width: 130px;
+}
+
+.form-list {
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  margin-right: 15px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 10px 0 100px 20px;
+  border: none;
+  background-color: #fbf8f7;
+  resize: none;
+  outline: none;
+}
+
+.icons11 {
+  display: flex;
+  margin-left: 40%;
+}
+
+.icon1 {
+  margin: 5px;
 }
